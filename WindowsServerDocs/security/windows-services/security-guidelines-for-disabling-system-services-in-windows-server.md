@@ -521,10 +521,10 @@ The following tables offer Microsoft guidance on disabling system services on Wi
 |                    |        |
 | ------------------ | ------ |
 | **Service name**   | Dhcp
-| **Description**    | Registers and updates IP addresses and DNS records for this computer. If this service is stopped, this computer will not receive dynamic IP addresses and DNS updates. If this service is disabled, any services that explicitly depend on it will fail to start.
+| **Description**    | Registers and updates IP addresses and DNS records for this computer. If this service is stopped, this computer will not receive dynamic IP addresses and will not register DNS updates. If this service is disabled, any services that explicitly depend on it will fail to start.
 | **Installation**   | Always installed
 | **Startup type**   | Automatic
-| **Recommendation** | No guidance
+| **Recommendation** | Do not disable when dynamic updates are used in DNS
 | **Comments**       |
 |||
 
